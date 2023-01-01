@@ -1,0 +1,166 @@
+div.menu{
+    width: 100%;
+    height: 40px;
+    position: relative;
+    z-index: 2;
+}
+div.menu>nav{
+    width: inherit;
+    height: inherit;
+}
+div.menu>nav>ul{
+    width: 100%;
+    height: inherit;
+    list-style: none;
+    padding: 0 20px;
+    box-sizing: border-box;
+    
+}
+div.menu>nav>ul>li{
+    display: inline-block;
+    width: auto;
+    height: inherit;
+    vertical-align: top;
+}
+div.menu>nav>ul>li>a{
+    font-family: iransans;
+    font-weight: bold;
+    font-size: 12px;
+    text-decoration: none;
+    width: inherit;
+    padding: 0 20px;
+    display: block;
+    box-sizing:border-box ;
+    height: inherit;
+    line-height: 40px;
+    color: black;
+    transition:100ms ;
+    -webkit-transition:100ms ;
+    -moz-transition:100ms ;
+    -ms-transition:100ms ;
+    -o-transition:100ms ;
+}
+div.menu>nav>ul>li>a:hover{
+    background-color: red;
+    transition: 300ms;
+    -webkit-transition: 300ms;
+    -moz-transition: 300ms;
+    -ms-transition: 300ms;
+    -o-transition: 300ms;
+}
+div.menu>nav>ul>li>a>span{
+    font-size: 16px;
+    margin: 0 10px;
+}
+div.menu>nav>ul>li>div.submenu{
+    width: calc(100% - 40px);
+    height: 500px;
+    position: absolute;
+    display: none;
+    border: 1px solid whitesmoke;
+
+}
+div.menu>nav>ul>li:hover>div.submenu{
+display: block;
+}
+div.menu>nav>ul>li>div.submenu>ul{
+list-style-type: none;
+width: 12%;
+height: inherit;
+background-color:whitesmoke ;
+}
+div.menu>nav>ul>li>div.submenu>ul>li{
+    width: 100%;
+    height: 40px;
+}
+div.menu>nav>ul>li>div.submenu>ul>li>a{
+    font-family: iransans;
+    font-weight: bold;
+    font-size: 12px;
+    text-decoration: none;
+    width: inherit;
+    display: block;
+    box-sizing:border-box ;
+    height: inherit;
+    line-height: 40px;
+    color: black;
+    text-align: center;
+    background-color: white;
+}
+
+div.menu>nav>ul>li>div.submenu>ul>li>a>i{
+    font-size: 12px;
+    margin-left: 5px;
+    font-weight: bold;
+}
+div.menu>nav>ul>li>div.submenu>ul>li>a:hover{
+background-color: lightgray;
+color: deeppink;
+}
+div.menu>nav>ul>li>div.submenu>ul>li>div{
+    width: 86%;
+    height: 600px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: none;
+    background-color: white;
+    margin-left: -4px;
+    
+    position: absolute;
+    right: 175px;
+
+}
+div.menu>nav>ul>li>div.submenu>ul>li:hover>div{
+    display: block;
+}
+div.menu>nav>ul>li>div.submenu>ul>li>div>a{
+    text-decoration: none;
+    color: black;
+    font-family: iransans;
+}
+
+div.menu>nav>ul>li>div.submenu>ul>li>div>div{
+    display: inline-block;
+    padding-right: 10px;
+box-sizing: border-box;
+    width: 20%;
+    height: inherit;
+    background-color:white;
+    vertical-align: top;
+    margin-left: -4px;
+}
+div.menu>nav>ul>li>div.submenu>ul>li>div>div>a{
+    text-decoration: none;
+    font-family: iransans;
+    font-size: 12px;
+}
+div.menu>nav>ul>li>div.submenu>ul>li>div>div>ul{
+    list-style-type: none;
+    /* overflow:scroll; */
+}
+div.menu>nav>ul>li>div.submenu>ul>li>div>div>ul>li{
+    width: 100%;
+    height: 30px;
+}
+div.menu>nav>ul>li>div.submenu>ul>li>div>div>ul>li>a{
+    font-family: iransans;
+    font-size: 13px;
+    text-decoration: none;
+    width: inherit;
+    display: block;
+    box-sizing:border-box ;
+    height: inherit;
+    line-height: 40px;
+    color: black;
+}
+div.menu>nav>ul>li>div.submenu>ul>li>div>div>ul>li:hover>a{
+    color: deeppink;
+}
+div.menu>nav>ul>li>div.submenu>ul>li>div>div>ul>li>a>h3>i{
+    color: red;
+    font-weight: bold;
+}
+div.menu>nav>ul>li>div.submenu>ul>li>div>div>ul>li>a>h3{
+    font-size: 14px;
+}

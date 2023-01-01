@@ -1,0 +1,63 @@
+div.contact{
+    width: 100%;
+    padding: 50px;
+    box-sizing: border-box;
+    background-color: whitesmoke;
+}
+div.contact>form{
+    width: 80%;
+    padding: 20px;
+    box-sizing: border-box;
+    margin: 0 auto;
+    text-align: center;
+}
+div.contact>form>label{
+    display: inline-block;
+    font-family: IranSans;
+    font-size: 12px;
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+div.contact>form>input[type=text],div.contact>form>input[type=email],div.contact>form>textarea{
+    width: 50%;
+    height: 30px;
+    display: block;
+    padding-right: 15px;
+    box-sizing: border-box;
+    border: unset;
+    border: 1px inset lightgrey;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    transition: 500ms;
+    font-family: IranSans;
+    font-size: 12px;
+    color: green;
+
+}
+/* : ::placeholder */
+div.contact>form>textarea{
+    resize: none;
+    height: 200px;
+    padding-top: 10px;
+}
+div.contact>form>input[type=submit]{
+    all: unset;
+    width: 150px;
+    height: 40px;
+    background-color: lightskyblue;
+    line-height: 40px;
+    font-family: IranSans;
+    color: whitesmoke;
+    font-size: 12px;
+    box-shadow: 5px 5px 15px black;
+    border-radius: 5px;
+}
+div.contact>form>input[type=text]:focus,div.contact>form>input[type=email]:focus,div.contact>form>textarea:focus{
+    width: 100%;
+    outline: none;
+    transition: 300ms;
+}
+div.contact>form>input[type=text]::placeholder,div.contact>form>input[type=email]::placeholder,div.contact>form>textarea::placeholder{
+    font-size: 12px;
+    color: blueviolet;
+}

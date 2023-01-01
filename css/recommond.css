@@ -1,0 +1,25 @@
+div.recommond{
+    width: 100%;
+    padding: 10px;
+    margin: 25px 10px;
+    box-sizing: border-box;
+    text-align: center;
+    z-index: 1;
+}
+div.recommond>div.chilirecommond{
+ width: 95%;
+ display: inline-block;
+ margin:0 5px;
+ padding: 0 30px;
+ 
+ 
+}
+div.recommond>div.chilirecommond>img{
+width: 320px;
+border-radius: 25px;
+ -webkit-border-radius: 25px;
+ -moz-border-radius: 25px;
+ -ms-border-radius: 25px;
+ -o-border-radius: 25px;
+ margin: 10px;
+}
